@@ -29,6 +29,7 @@ function Map() {
                 setlocation(e);
               }}
               
+              
               />
             ))
           }

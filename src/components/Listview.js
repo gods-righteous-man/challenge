@@ -29,11 +29,11 @@ function ListView () {
                 truedata.features.map((e) => (
                     <>
                     <ListItem alignItems="flex-start">
-                        <ListItemAvatar>
-                        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                        </ListItemAvatar>
+                        {/* <ListItemAvatar>
+                        <Avatar alt="Remy Sharp" src="../images/trial1.png" />
+                        </ListItemAvatar> */}
                         <ListItemText
-                        primary= {e.Name}
+                        primary= {<b>{e.Name}</b>}
                         secondary={
                             <React.Fragment>
                             <h4>Address: {e.Address}</h4>
