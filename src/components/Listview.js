@@ -37,8 +37,11 @@ function ListView () {
                         secondary={
                             <React.Fragment>
                             
-                            {e.Address}
-                            <h5><a href={e.Website}>{e.Website}</a></h5>
+                            <h4>Address: {e.Address}</h4>
+                            <h4>Phone: {e.Phone}</h4>
+                            <h4>Rating out of 5: {e["Google Rating (out of 5)"]}</h4>
+                            <h4>Review Count: {e["Number of reviews"]}</h4>
+                            <h4><a href={e.Website}>{e.Website}</a></h4>
                             </React.Fragment>
                         }
                         />

@@ -28,13 +28,7 @@ function Map() {
               onClick = { () => {
                 setlocation(e);
               }}
-              // icon = {{
-              //   url: '/trial1.png',
-
-              //   anchor: new window.google.maps.Point(10, 46),
-
-              //   scaledSize: new window.google.maps.Size(50, 50)
-              // }}
+              
               />
             ))
           }
@@ -50,8 +44,8 @@ function Map() {
                   <h3>Phone No :{location.Phone}</h3>
                   <h3>Address :{location.Address}</h3>
                   <h4>Website :<a href={location.Website} >{location.Website}</a></h4>
-                  <h4>Rating :{location["Google Rating (out of 5)"]}</h4>
-                  <h4>Reviews : {location["Number of reviews"]}</h4>
+                  <h4>Rating out of 5:{location["Google Rating (out of 5)"]}</h4>
+                  <h4>Review Count : {location["Number of reviews"]}</h4>
                 </div>
               </InfoWindow>
             )
