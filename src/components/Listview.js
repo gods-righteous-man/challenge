@@ -36,7 +36,6 @@ function ListView () {
                         primary= {e.Name}
                         secondary={
                             <React.Fragment>
-                            
                             <h4>Address: {e.Address}</h4>
                             <h4>Phone: {e.Phone}</h4>
                             <h4>Rating out of 5: {e["Google Rating (out of 5)"]}</h4>
