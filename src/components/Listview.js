@@ -11,7 +11,7 @@ import truedata from '../Data/truedata.json';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-      width: '50ch',
+      width: '100%',
       maxWidth: '150ch',
       backgroundColor: theme.palette.background.paper,
     },
