@@ -28,13 +28,13 @@ function Map() {
               onClick = { () => {
                 setlocation(e);
               }}
-              icon = {{
-                url: '/test2.svg',
+              // icon = {{
+              //   url: '/test2.svg',
 
-                anchor: new window.google.maps.Point(10, 46),
+              //   anchor: new window.google.maps.Point(10, 46),
 
-                scaledSize: new window.google.maps.Size(50, 50)
-              }}
+              //   scaledSize: new window.google.maps.Size(50, 50)
+              // }}
               />
             ))
           }
