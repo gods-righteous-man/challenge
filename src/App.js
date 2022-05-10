@@ -29,7 +29,7 @@ function Map() {
                 setlocation(e);
               }}
               // icon = {{
-              //   url: '/test2.svg',
+              //   url: '/trial1.png',
 
               //   anchor: new window.google.maps.Point(10, 46),
 
