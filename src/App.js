@@ -8,7 +8,7 @@ import mapStlyes from './components/mapStyles';
 
 
 function Map() {
-  Geocode.setApiKey("AIzaSyDlIxwtExTw5e3YiBlzt5fjAx--vWih_C0");
+  Geocode.setApiKey("AIzaSyDozzcNYMQE56EUusfwPqlSXI19SpmNFzQ");
   const center = useMemo(() => ({lat: 34.052238, lng: -118.243340}), [])  //keeping map center as Los Angeles
   const [location, setlocation] = useState(null);
 
@@ -59,7 +59,7 @@ function App() {
 
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDj6Y3Fzs44fCoLzdO2SKhDrdS1M75DCkA",
+    googleMapsApiKey: "AIzaSyBcIGNFC5J5yttebfT9hBkvOApLsB2nSF8",
   },);
 
   if (!isLoaded) return <div> Loading ...</div>
