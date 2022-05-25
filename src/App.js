@@ -59,7 +59,7 @@ function App() {
 
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyBcIGNFC5J5yttebfT9hBkvOApLsB2nSF8",
+    googleMapsApiKey: "AIzaSyDtAb-V0uYhihP3VuC9_oD_dsJyoboo-gU",
   },);
 
   if (!isLoaded) return <div> Loading ...</div>
